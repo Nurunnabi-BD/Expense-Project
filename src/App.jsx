@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import FilterExpenses from "./components/filterExpenes.jsx";
-import Content from "./components/Content.jsx";
+import Content from "./components/content.jsx";
 import AddTable from "./components/addTable.jsx";
 function App() {
   const [expense, setExpense] = useState([
